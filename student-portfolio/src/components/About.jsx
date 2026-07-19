@@ -10,9 +10,10 @@ function About({ college, branch, semester }) {
 
       <div className="glass-card about-card">
         <p className="about-summary">
-          I am a motivated Computer Engineering student with a strong interest in
-          frontend development, responsive design, and building practical digital
-          products with clean architecture.
+          Hi, I am Shreeja Upadhyay, a Computer Engineering student passionate
+          about building practical software solutions with React, Node.js,
+          Python, FastAPI, MySQL, and PostgreSQL while exploring AI, machine
+          learning, NLP, and large language models.
         </p>
 
         <div className="about-grid">

@@ -2,25 +2,32 @@ import { FaArrowUpRightFromSquare, FaGithub } from 'react-icons/fa6'
 
 const projects = [
   {
-    title: 'Portfolio Builder',
+    title: 'Personalized Fashion Recommendation System',
     description:
-      'A responsive portfolio generator for students and professionals to present their profile and work efficiently.',
-    tech: 'React • CSS • JavaScript',
-    badge: 'PB',
+      'A TensorFlow Recommenders project that suggests fashion items based on user preferences and behavior patterns.',
+    tech: 'TensorFlow Recommenders • Python • Machine Learning',
+    badge: 'FR',
   },
   {
-    title: 'Task Manager',
+    title: 'Tesla Stock Price Prediction',
     description:
-      'A productivity dashboard with clear task tracking, interactions, and a clean, minimal workflow.',
-    tech: 'React • State Hooks • UI Design',
-    badge: 'TM',
+      'A forecasting app that compares multiple machine learning models to predict Tesla stock prices.',
+    tech: 'Python • Scikit-learn • Data Analysis',
+    badge: 'TS',
   },
   {
-    title: 'Weather Dashboard',
+    title: 'Reusable Data Preprocessing Pipeline',
     description:
-      'A polished weather app experience that emphasizes readability, smooth interaction, and modular UI.',
-    tech: 'JavaScript • API • Responsive Design',
-    badge: 'WD',
+      'An automated pipeline for handling missing values, encoding, outlier treatment, and feature preprocessing.',
+    tech: 'Python • Data Processing • Scikit-learn',
+    badge: 'DP',
+  },
+  {
+    title: 'k-NN and SVM from Scratch',
+    description:
+      'Implementations of k-Nearest Neighbors and Support Vector Machine algorithms without machine learning libraries.',
+    tech: 'Python • Algorithms • Machine Learning',
+    badge: 'ML',
   },
 ]
 
@@ -29,7 +36,7 @@ function Projects() {
     <section className="page-section fade-in">
       <div className="section-heading">
         <p className="section-tag">Featured Work</p>
-        <h2>Selected Projects</h2>
+        <h2>My Projects</h2>
       </div>
 
       <div className="projects-grid">
@@ -45,11 +52,11 @@ function Projects() {
               <span className="project-tech">{project.tech}</span>
 
               <div className="project-actions">
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="btn btn-secondary">
+                <a href="https://github.com/ShreejaXDev/" target="_blank" rel="noreferrer" className="btn btn-secondary">
                   <FaGithub /> GitHub
                 </a>
-                <a href="https://example.com" target="_blank" rel="noreferrer" className="btn btn-primary">
-                  <FaArrowUpRightFromSquare /> Live Demo
+                <a href="https://www.linkedin.com/in/shreejaupadhyay38/" target="_blank" rel="noreferrer" className="btn btn-primary">
+                  <FaArrowUpRightFromSquare /> Profile
                 </a>
               </div>
             </div>

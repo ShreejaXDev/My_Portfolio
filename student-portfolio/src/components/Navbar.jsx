@@ -15,7 +15,7 @@ function Navbar({ isDark, onToggleTheme }) {
   return (
     <nav className="navbar">
       <NavLink to="/" className="brand" onClick={() => setMenuOpen(false)}>
-        Satvi <span>Portfolio</span>
+        Shreeja <span>Portfolio</span>
       </NavLink>
 
       <div className="nav-actions">

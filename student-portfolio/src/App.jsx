@@ -40,7 +40,11 @@ function App() {
         </Routes>
       </main>
 
-      <Footer email="satviakola16@gmail.com" phone="+91 9876543210" />
+      <Footer
+        email="shreejaupadhyay38@gmail.com"
+        githubUrl="https://github.com/ShreejaXDev/"
+        linkedinUrl="https://www.linkedin.com/in/shreejaupadhyay38/"
+      />
 
       {showScrollTop ? (
         <button type="button" className="scroll-top" onClick={scrollToTop}>

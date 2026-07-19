@@ -23,12 +23,13 @@ function Home() {
     <section className="page-section fade-in">
       <div className="hero-card glass-card">
         <div className="hero-copy">
-          <p className="section-tag">Software engineer • designer • problem solver</p>
-          <h1>Satvi Akola</h1>
-          <p className="hero-role">Frontend Developer & UI Enthusiast</p>
+          <p className="section-tag">Computer Engineering student • AI learner • builder</p>
+          <h1>Shreeja Upadhyay</h1>
+          <p className="hero-role">Full Stack Developer & AI/ML Explorer</p>
           <p className="hero-description">
-            I craft polished, high-performing web experiences with a balance of
-            strong engineering fundamentals and design-aware UI thinking.
+            I build practical, scalable software solutions and keep expanding my
+            skills in modern web development, machine learning, and intelligent
+            user-centric applications.
           </p>
 
           <div className="hero-actions">
@@ -45,7 +46,7 @@ function Home() {
           <div className="hero-portrait">
             <FaUserTie />
           </div>
-          <div className="portrait-caption">Professional image placeholder</div>
+          <div className="portrait-caption">Building software with AI and full-stack tools</div>
         </div>
       </div>
 
@@ -57,23 +58,23 @@ function Home() {
 
         <div className="glass-card about-card">
           <p className="about-summary">
-            A Computer Engineering student focused on building accessible,
-            scalable, and modern interfaces with React, routing, and state-rich
-            user flows.
+            I enjoy developing full-stack applications and applying AI and ML to
+            real problems through projects that combine strong engineering,
+            thoughtful design, and clean implementation.
           </p>
 
           <div className="about-grid">
             <div className="info-pill">
               <FaLaptopCode />
-              <span>Computer Engineering</span>
+              <span>React, Node.js, Python</span>
             </div>
             <div className="info-pill">
               <FaCode />
-              <span>Semester 5</span>
+              <span>AI, ML, NLP, LLMs</span>
             </div>
             <div className="info-pill">
               <FaRocket />
-              <span>Design + Development</span>
+              <span>FastAPI, MySQL, PostgreSQL</span>
             </div>
           </div>
         </div>

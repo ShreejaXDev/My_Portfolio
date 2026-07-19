@@ -2,22 +2,28 @@ import { FaArrowUpRightFromSquare, FaGithub } from 'react-icons/fa6'
 
 const projects = [
   {
-    title: 'Portfolio Builder',
-    description: 'A responsive landing page creator for students and freelancers to showcase profile and projects.',
-    tech: 'React • CSS • JavaScript',
-    accent: 'PB',
+    title: 'Personalized Fashion Recommendation System',
+    description: 'A TensorFlow Recommenders project that suggests fashion items based on user preferences and behavior patterns.',
+    tech: 'TensorFlow Recommenders • Python • Machine Learning',
+    accent: 'FR',
   },
   {
-    title: 'Task Manager App',
-    description: 'A clean productivity dashboard with add, complete, and remove task features for daily workflow.',
-    tech: 'React • Local Storage • CSS',
-    accent: 'TM',
+    title: 'Tesla Stock Price Prediction',
+    description: 'A forecasting app that compares multiple machine learning models to predict Tesla stock prices.',
+    tech: 'Python • Scikit-learn • Data Analysis',
+    accent: 'TS',
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A smooth weather interface that displays location-based forecasts in a visually polished layout.',
-    tech: 'JavaScript • API • Responsive UI',
-    accent: 'WD',
+    title: 'Reusable Data Preprocessing Pipeline',
+    description: 'An automated pipeline for handling missing values, encoding, outlier treatment, and feature preprocessing.',
+    tech: 'Python • Data Processing • Scikit-learn',
+    accent: 'DP',
+  },
+  {
+    title: 'k-NN and SVM from Scratch',
+    description: 'Implementations of k-Nearest Neighbors and Support Vector Machine algorithms without machine learning libraries.',
+    tech: 'Python • Algorithms • Machine Learning',
+    accent: 'ML',
   },
 ]
 
@@ -42,10 +48,10 @@ function Projects() {
               <span className="project-tech">{project.tech}</span>
 
               <div className="project-actions">
-                <a href="#contact" className="btn btn-secondary">
+                <a href="https://github.com/ShreejaXDev/" target="_blank" rel="noreferrer" className="btn btn-secondary">
                   <FaGithub /> GitHub
                 </a>
-                <a href="#home" className="btn btn-primary">
+                <a href="https://www.linkedin.com/in/shreejaupadhyay38/" target="_blank" rel="noreferrer" className="btn btn-primary">
                   <FaArrowUpRightFromSquare /> Demo
                 </a>
               </div>
