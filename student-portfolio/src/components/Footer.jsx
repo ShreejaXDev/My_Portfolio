@@ -30,3 +30,4 @@ function Footer({ email, githubUrl, linkedinUrl }) {
 }
 
 export default Footer
+
