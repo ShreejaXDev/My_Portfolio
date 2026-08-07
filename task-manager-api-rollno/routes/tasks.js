@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const validateId = require('../middleware/validateId')
+const { _router } = require('../server')
 
 // In-memory storage
 const tasks = []
@@ -63,4 +64,4 @@ router.delete('/:id', validateId, (req, res, next) => {
   }
 })
 
-module.exports = router
+module.exports = _router
